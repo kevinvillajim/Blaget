@@ -299,7 +299,7 @@
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 999px) {
 	.lista-header {
 		display: inline;
 	}
