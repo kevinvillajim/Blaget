@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1000px) {
+  .lista-header {
+    display: none;
+  }
+  .menu-header {
+    display: inline;
+  }
+  .carrousel-container {
+    height: 46rem;
+    display: flex;
+    justify-content: center;
+  }
+  .text-container {
+    padding: 5rem;
+  }
+  .text-container > * {
+    text-align: center;
+    width: 15rem;
+  }
+  .text-container > h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 22px;
+  }
+  .text-text {
+    text-align: center;
+    font-size: 19px;
+  }
+  .arbitraje-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .arbitraje-bg {
+    padding: 5rem 2rem;
+  }
+  .arbitraje-title {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .arbitraje-text-container {
+    width: 100%;
+  }
+  .arbitraje-text {
+    text-align: center;
+    font-size: 25px;
+  }
+  .arbitraje-sub {
+    text-align: center;
+    font-size: 18px;
+  }
+  .arbitraje-btn {
+    margin: 2rem 0;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-container {
+    padding: 2.5rem;
+  }
+  .about-container {
+    flex-direction: column-reverse;
+    padding: 3rem;
+  }
+  .about-title,
+  .about-text {
+    text-align: center;
+  }
+  .about-text-container {
+    padding: 0;
+  }
+  .about-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .testimonios-container {
+    padding: 0;
+    margin: 3rem 0;
+  }
+  .buttons-container {
+    gap: 5px;
+    width: 90%;
+  }
+  .contactos-container {
+    padding: 0;
+    width: 100%;
+  }
+  .cont {
+    padding: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .form-container > div {
+    width: 100%;
+  }
+  .form-name {
+    width: 100%;
+  }
+  .form-email {
+    width: 100%;
+  }
+  .form-button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-menu-container {
+    margin-top: 1rem;
+  }
+  .footer-menu-container > * {
+    font-weight: 500;
+  }
+  .footer-ul {
+    gap: 10px;
+  }
+  .footer-button-container {
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 999px) {
+  .lista-header {
+    display: inline;
+  }
+  .menu-header {
+    display: none;
+  }
+  .separ {
+    display: none;
+  }
+}
